@@ -12,7 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/", (req, res) => res.send("Yaswanth Backend App v6"));
+app.get("/", (req, res) => res.send("Yaswanth Backend App v6.1"));
 app.get("/users", function (req, res) {
   res.status(200).json([
     {
