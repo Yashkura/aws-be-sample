@@ -252,5 +252,5 @@ const server = app.listen(8081, function () {
   const host = server.address().address;
   const port = server.address().port;
 
-  console.log("Backend app listening at http://%s:%s", host, port);
+  console.log("Backend app v1 listening at http://%s:%s", host, port);
 });
