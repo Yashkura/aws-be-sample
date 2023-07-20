@@ -14,6 +14,7 @@ app.use((req, res, next) => {
 
 app.get("/", (req, res) => res.send("Yaswanth Backend  App v3.2<img height='200' width='200' src='https://m.media-amazon.com/images/I/81XyIoZ8+HL._AC_UF1000,1000_QL80_.jpg'>"));
 app.get("/users", function (req, res) {
+  console.log("User Entered /Users route");
   res.status(200).json([
     {
       id: 1,
