@@ -12,7 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/", (req, res) => res.send("Yaswanth Backend  App v2.3<img src='https://m.media-amazon.com/images/I/81XyIoZ8+HL._AC_UF1000,1000_QL80_.jpg'>"));
+app.get("/", (req, res) => res.send("Yaswanth Backend  App v2.3<img height='200' width='200' src='https://m.media-amazon.com/images/I/81XyIoZ8+HL._AC_UF1000,1000_QL80_.jpg'>"));
 app.get("/users", function (req, res) {
   res.status(200).json([
     {
